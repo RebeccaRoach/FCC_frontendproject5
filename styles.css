@@ -1,0 +1,167 @@
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 578px) {
+  h1#name {
+  font-size: 3em;
+  color: #000066;
+  position: relative;
+  text-align: left;
+
+  }
+  
+  h2#learning {
+  font-size: 1.5em;
+  text-align: right;
+  }
+}
+
+@media screen and (max-width:770px) {
+  
+  h1#name {
+  position: absolute;
+  padding: 60px;
+  color: #000066;
+  }
+  
+  h2#learning {
+  position: absolute;
+  padding: 170px 62px;
+  }
+  
+  img#welcomeimage {
+    object-fit: contain;
+    background-color: #C0C0C0;
+  }
+}
+
+#welcome-section {
+  height: 100vh;
+}
+
+#welcomeimage {
+  width: 100%;
+  padding: 0px;
+  height: 100vh;
+}
+
+#name {
+  color: white;
+  font-family: 'Spectral', serif;
+  font-style: italic;
+  font-size: 4em;
+  position: absolute;
+  padding: 75px;
+}
+
+#learning {
+  color: #ffa472;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8em;
+  position: absolute;
+  padding-left: 16vw;
+  padding-right: 12vw;
+  padding-top: 30vh;
+}
+
+#navbar {
+  background-color: rgb(255,88,15,0);
+  position: fixed;
+  top: 15px;
+  right: 0;
+  text-align: right; 
+  width: 100%;
+}
+
+@media (max-width: 770px) {
+  #navbar {
+    text-align: center;
+    background-color: rgb(255,88,15,0.8);
+  }
+}
+
+ #navbar a:hover {
+    color: #000066;
+  }
+
+#navbar:hover {
+  background-color: rgb(255,88,15,0.8);
+}
+
+#navbar > li {
+  display: inline;
+  padding: 10px;
+  margin: 5px;
+  font-size: 1.3em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.project-grid {
+  background-color: #000066;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  justify-content: space-evenly;
+  
+}
+
+.project-tile {
+  display: block;
+  flex-wrap: wrap;
+  max-width: 40%;
+}
+ 
+
+.project-image {
+  object-fit: contain;
+  width: 100%;
+ 
+}
+
+.project-title {
+  font-size: 1.1em;
+  color: white;
+  text-align: center;
+padding-bottom: 40px;
+}
+
+.project-title:hover {
+  color: rgb(255,88,15);
+}
+  
+
+a {
+  text-decoration: none;
+}
+
+#contact {
+background-color: #ffa472;
+text-align: center;
+height: 100vh;
+position: relative;
+display: table-cell;
+vertical-align: middle;
+width: 100vw;
+}
+
+.coffee {
+  font-family: 'Spectral', serif;
+}
+
+#sayhello {
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: bold;
+}
